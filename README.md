@@ -4,7 +4,8 @@ Proyek ini membutuhkan beberapa library Python.
 Install semua dependency dengan:
 
 ```bash
-pip install -r requirements.txt
+!pip install --extra-index-url https://pypi.org/simple numpy==1.26.4 scikit-surprise gensim scipy implicit --no-cache-dir --force-reinstall
+!pip install --upgrade --force-reinstall numpy==1.23.5 pandas==1.5.3
 ```
 
 
